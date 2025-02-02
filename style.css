@@ -60,28 +60,6 @@ nav {
     transition: all 0.3s ease;
 }
 
-@media (max-width: 768px) {
-    .hamburger {
-        display: flex; 
-    }
-
-    .nav-links {
-        display: none; 
-        flex-direction: column;
-        background-color: #333;
-        position: absolute;
-        top: 60px;
-        right: 0;
-        width: 100%;
-        text-align: center;
-        padding: 10px 0;
-    }
-
-    .hamburger-toggle:checked ~ .nav-links {
-        display: flex;
-    }
-}
-
 .hero {
     background-image: url('image/profile.jpg');
     background-size: cover;
@@ -410,3 +388,4 @@ footer {
     padding: 20px;
     text-align: center;
 }
+

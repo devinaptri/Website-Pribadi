@@ -1,0 +1,74 @@
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; 
+    }
+
+    .nav-links {
+        display: none; 
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        width: 100%;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .hamburger-toggle:checked ~ .nav-links {
+        display: flex;
+    }
+}
+
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-photo {
+        margin-right: 0;
+        margin-bottom: 20px;
+        width: 100%;
+        max-width: 300px;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info,
+    .contact-form {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .experience-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 480px) {
+    .experience-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero h1 {
+    font-size: 2em;
+}
+
+.hero p {
+    font-size: 1.2em;
+}
+
+.btn {
+    font-size: 0.9em;
+}
+}
