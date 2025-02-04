@@ -257,18 +257,6 @@ nav {
     color: #555;
 }
 
-@media (max-width: 768px) {
-    .experience-grid {
-        grid-template-columns: repeat(2, 1fr);
-    }
-}
-
-@media (max-width: 480px) {
-    .experience-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .contact-section {
     padding: 50px 20px;
     background-color: #f9f9f9;
@@ -278,25 +266,15 @@ nav {
 .contact-section h2 {
     font-size: 2em;
     margin-bottom: 40px;
-        padding: 50px 20px;
-        background-color: #f4f4f4;
-        text-align: center;
     }
-
-.contact-container {
-    display: flex;
-    justify-content: space-between;
-    gap: 40px;
-    max-width: 1200px;
-    margin: 0 auto;
-}
 
 .contact-info {
     background-color: #fff;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 40%;
+    max-width: 600px;
+    margin: 0 auto;
     text-align: left;
 }
 
@@ -320,66 +298,6 @@ nav {
 .contact-details a {
     color: #ff6347;
     text-decoration: none;
-}
-
-.contact-form {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    width: 60%;
-    text-align: left;
-}
-
-.form-group {
-    margin-bottom: 20px;
-}
-
-.form-group label {
-    display: block;
-    font-size: 1em;
-    margin-bottom: 5px;
-    color: #333;
-}
-
-.form-group input,
-.form-group textarea {
-    width: 100%;
-    padding: 10px;
-    font-size: 1em;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-sizing: border-box;
-}
-
-.form-group textarea {
-    resize: vertical;
-}
-
-.btn {
-    background-color: #ff6347;
-    color: white;
-    padding: 10px 20px;
-    font-size: 1em;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #e5533d;
-}
-
-@media (max-width: 768px) {
-    .contact-container {
-        flex-direction: column;
-    }
-
-    .contact-info,
-    .contact-form {
-        width: 100%;
-    }
 }
 
 footer {
